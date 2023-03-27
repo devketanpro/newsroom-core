@@ -14,6 +14,5 @@ elastic-apm[flask]>=6.7,<6.8
 reportlab==3.6.6
 MarkupSafe<2.1
 
-# Use develop branch for now (until 2.4 is released, to fix inclusion of `tests` from Superdesk)
-superdesk-core @ git+https://github.com/superdesk/superdesk-core.git@46d5140
-superdesk-planning==2.3.1
+superdesk-core @ git+https://github.com/superdesk/superdesk-core.git@v2.5.3
+superdesk-planning @ git+https://github.com/superdesk/superdesk-planning.git@v2.5.1
